@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"> 
+    </script>  
+  </head>
+  <body ng-app="">
+    <table align= center border=1>
+      <tr>
+        <td>Enter number 1</td>
+        <td><input type=number ng-model="X"></input></td>
+      </tr>
+      <tr>
+        <td>Enter number 2</td>
+        <td><input type=number ng-model="Y"></td>  
+      </tr>
+      <tr>
+        <td>Addition</td>
+        <td>{{X+Y}}</td>
+      </tr>
+      <tr>
+        <td>Subtraction</td>
+        <td>{{X-Y}}</td>
+      </tr>
+      <tr>
+        <td>Multiplication</td>
+        <td>{{X*Y}}</td> 
+      </tr>
+      <tr>
+        <td>Division</td>
+        <td>{{X/Y}}</td>
+      </tr>
+        
+    </table> 
+  </body>
+</html>
